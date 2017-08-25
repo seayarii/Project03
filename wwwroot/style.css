@@ -1,0 +1,85 @@
+body {
+background-color: #000000;
+background-image: url('http://pics.clipartpng.com/Realistic_Goldfish_PNG_Clipart-445.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 500px auto;
+background-position: right bottom; 
+}
+
+img.goldy {
+    width: 200px;
+    height: auto;
+    z-index: 100;
+    position: absolute;
+    top: 105px;
+    left: -135px;
+    opacity: .8;
+}
+
+img.goldy:hover {
+    opacity: 0;
+transition: 2s ease;
+}
+
+a {
+    color: #FFECF1;
+    font-size: 16px;
+    font-variant: small-caps;
+    float: none;
+    background-color: #515151;
+    padding: 14px 14px;
+    width: 112px;
+    margin: 2px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #282828;
+    color: #595453;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+}
+
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-family: palatino;
+    font-size: 125px;
+    color: #737373
+}
+
+h2 {
+    font-variant: small-caps;
+    font-family: palatino;
+    font-size: 50px;
+    color: #FFA538;
+
+}
+
+p {
+    font-family: century gothic;
+    font-size: 13px;
+    color: #B3BCBE;
+    float: none;
+    width: 750px;
+    background-color: #212121;
+    opacity: .75;
+    padding: 14px 14px; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    width: 750px;
+    position: absolute;
+    left: 10%;
+    text-align: justify;
+    text-justify: inter-word;
+}
